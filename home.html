@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | 🤗Have A Nice Day</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/home.css">
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="SocioGram, Kumar Sahil, Amity University, Patna, India, socio, Gram, krsahil8825, sociogram.com">
+    <meta name="description" content="SocioGram is a social media website made by Kumar Sahil in India.">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo"><a href="/home.html">SocioGram</a></div>
+        <div class="nav-menu">
+            <span id="menu-btnopen" onclick="toggleMenuopen()">&#9776;</span>
+            <span id="menu-btnclose" onclick="toggleMenuclose()">&#9746;</span>
+            <ul id="menuUL">
+                <li><a class="activepage" href="/home.html">Home</a></li>
+                <li><a href="/notification.html">Notification</a></li>
+                <li><a href="/friends.html">Friends</a></li>
+                <li><a href="/profile.html">Profile</a></li>
+                <a id="logout-btn-toggle" href="/index.html"><button>Log Out</button></a>
+            </ul>
+        </div>
+        <div class="nav-logout-btn">
+            <a href="/index.html"><button>Log Out</button></a>
+        </div>
+    </nav>
+
+    <main class="maincontent">
+        <div id="posts-container"></div>
+        <div id="loader">Loading...</div>
+    </main>
+
+    <footer class="footer">
+        <p>Made with 🥰 in India | Developed By Team Apex (Kumar Sahil)</p>
+        <p>Copyright &copy; 2025 SocioGram | All Rights Reserved</p>
+    </footer>
+
+    <script src="/script/home.js"></script>
+    <script src="/script/script.js"></script>
+</body>
+
+</html>
